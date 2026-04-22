@@ -61,4 +61,16 @@ public class StackTugasMahasiswa21 {
             );
         }
     }
+
+    public Mahasiswa21 bottom() {
+    if (!isEmpty()) {
+        return stack[0];
+    } else {
+        System.out.println("Stack kosong!");
+        return null;
+    }
+}
+    public int jumlahTugas() {
+    return top + 1;
+}
 }
